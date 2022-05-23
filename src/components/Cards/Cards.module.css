@@ -1,0 +1,39 @@
+.container{
+    margin: 50px 0;
+}
+
+.card {
+    margin: 0 2% !important;
+    /* !important for material ui */
+}
+
+.infected{
+    border-bottom: 2rem solid rgb(0,0,255,0.5);
+}
+.infected:hover{
+    background-color: rgb(0,0,255,0.5);
+    border:none;
+}
+
+.recovered{
+    border-bottom: 2rem solid rgb(0,255,0,0.5);
+}
+.recovered:hover{
+    background-color: rgb(0,255,0,0.5);
+    border:none;
+}
+.deaths{
+    border-bottom: 2rem solid rgb(255,0,0,0.5);
+}
+.deaths:hover{
+    background-color: rgb(255,0,0,0.5);
+    border:none;
+}
+@media (max-width: 770px) {
+    .container{
+        margin: 20px 0;
+    }
+    .card{
+        margin: 2% 0 !important;
+    }
+}

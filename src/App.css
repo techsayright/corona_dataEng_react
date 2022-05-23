@@ -1,0 +1,25 @@
+html{
+  /* font-size: 62.5%; */
+  font-size: 80%;
+
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  font-size: 1rem;
+  padding: .5rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  html{
+    font-size: 40%;
+  }
+}
+
